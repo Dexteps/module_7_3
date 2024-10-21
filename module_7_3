@@ -27,7 +27,7 @@ class WordsFinder:
         return words
 
     def find(self, word):
-        return self.__word_in_value('find', word)
+        return self.__word_in_value('find', word) + 1
 
     def count(self, word):
         return self.__word_in_value('count', word)
